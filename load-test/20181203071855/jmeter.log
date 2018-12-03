@@ -1,0 +1,121 @@
+2018-12-03 07:18:58,917 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2018-12-03 07:18:58,990 INFO o.a.j.JMeter: Loading user properties from: /jmeter/apache-jmeter-3.3/bin/user.properties
+2018-12-03 07:18:58,993 INFO o.a.j.JMeter: Loading system properties from: /jmeter/apache-jmeter-3.3/bin/system.properties
+2018-12-03 07:18:58,995 INFO o.a.j.JMeter: Setting JMeter property: port=9080
+2018-12-03 07:18:58,995 INFO o.a.j.JMeter: Setting JMeter property: host=172.18.0.5
+2018-12-03 07:18:58,995 INFO o.a.j.JMeter: Setting JMeter property: path=/
+2018-12-03 07:18:59,007 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2018-12-03 07:18:59,007 INFO o.a.j.JMeter: Version 3.3 r1808647
+2018-12-03 07:18:59,007 INFO o.a.j.JMeter: java.version=1.8.0_171
+2018-12-03 07:18:59,007 INFO o.a.j.JMeter: java.vm.name=IBM J9 VM
+2018-12-03 07:18:59,007 INFO o.a.j.JMeter: os.name=Linux
+2018-12-03 07:18:59,007 INFO o.a.j.JMeter: os.arch=amd64
+2018-12-03 07:18:59,007 INFO o.a.j.JMeter: os.version=4.9.125-linuxkit
+2018-12-03 07:18:59,008 INFO o.a.j.JMeter: file.encoding=ANSI_X3.4-1968
+2018-12-03 07:18:59,008 INFO o.a.j.JMeter: Max memory     =536870912
+2018-12-03 07:18:59,008 INFO o.a.j.JMeter: Available Processors =2
+2018-12-03 07:18:59,023 INFO o.a.j.JMeter: Default Locale=English (United States)
+2018-12-03 07:18:59,023 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2018-12-03 07:18:59,024 INFO o.a.j.JMeter: JMeterHome=/jmeter/apache-jmeter-3.3
+2018-12-03 07:18:59,024 INFO o.a.j.JMeter: user.dir  =/microclimate-workspace/samplemicroclimatevote/load-test/20181203071855
+2018-12-03 07:18:59,024 INFO o.a.j.JMeter: PWD       =/microclimate-workspace/samplemicroclimatevote/load-test/20181203071855
+2018-12-03 07:18:59,024 INFO o.a.j.JMeter: IP: 172.18.0.4 Name: 98602a0465f2 FullName: 98602a0465f2
+2018-12-03 07:18:59,028 INFO o.a.j.s.FileServer: Default base='/microclimate-workspace/samplemicroclimatevote/load-test/20181203071855'
+2018-12-03 07:18:59,029 INFO o.a.j.s.FileServer: Set new base='/microclimate-workspace/samplemicroclimatevote/load-test/20181203071855'
+2018-12-03 07:18:59,481 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-12-03 07:18:59,853 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-12-03 07:18:59,865 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
+2018-12-03 07:18:59,882 INFO o.a.j.s.SaveService: Loading file: TestPlan.jmx
+2018-12-03 07:18:59,983 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-12-03 07:18:59,984 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-12-03 07:18:59,984 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-12-03 07:18:59,984 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-12-03 07:18:59,984 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-12-03 07:18:59,984 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-12-03 07:19:00,026 INFO o.a.j.JMeter: Creating summariser <summary>
+2018-12-03 07:19:00,046 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-12-03 07:19:00,048 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-12-03 07:19:00,048 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-12-03 07:19:00,056 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-12-03 07:19:00,056 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-12-03 07:19:00,554 INFO o.a.j.JMeter: Running test (1543821540554)
+2018-12-03 07:19:00,629 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2018-12-03 07:19:00,629 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Thread Group.
+2018-12-03 07:19:00,629 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-12-03 07:19:00,630 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=20 ramp-up=1 perThread=50.0 delayedStart=false
+2018-12-03 07:19:00,646 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2018-12-03 07:19:00,668 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-12-03 07:19:00,669 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-12-03 07:19:00,701 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2018-12-03 07:19:00,762 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2018-12-03 07:19:00,812 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2018-12-03 07:19:00,862 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2018-12-03 07:19:00,912 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2018-12-03 07:19:00,963 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2018-12-03 07:19:01,018 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2018-12-03 07:19:01,065 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2018-12-03 07:19:01,115 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2018-12-03 07:19:01,167 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2018-12-03 07:19:01,217 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2018-12-03 07:19:01,267 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2018-12-03 07:19:01,317 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2018-12-03 07:19:01,368 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2018-12-03 07:19:01,418 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2018-12-03 07:19:01,472 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2018-12-03 07:19:01,522 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2018-12-03 07:19:01,572 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2018-12-03 07:19:01,627 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2018-12-03 07:19:03,722 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = 98602a0465f2
+2018-12-03 07:19:03,732 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-12-03 07:19:03,744 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-12-03 07:19:03,744 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-12-03 07:19:03,744 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-12-03 07:19:03,744 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-12-03 07:19:03,995 INFO o.a.j.r.Summariser: summary +      1 in 00:00:03 =    0.3/s Avg:   188 Min:   188 Max:   188 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
+2018-12-03 07:19:31,239 INFO o.a.j.r.Summariser: summary +    180 in 00:00:27 =    6.6/s Avg:    33 Min:     7 Max:   250 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
+2018-12-03 07:19:31,244 INFO o.a.j.r.Summariser: summary =    181 in 00:00:31 =    5.9/s Avg:    34 Min:     7 Max:   250 Err:     0 (0.00%)
+2018-12-03 07:20:01,484 INFO o.a.j.r.Summariser: summary +    200 in 00:00:30 =    6.6/s Avg:    22 Min:     6 Max:    85 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
+2018-12-03 07:20:01,485 INFO o.a.j.r.Summariser: summary =    381 in 00:01:01 =    6.3/s Avg:    28 Min:     6 Max:   250 Err:     0 (0.00%)
+2018-12-03 07:20:01,487 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2018-12-03 07:20:01,487 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2018-12-03 07:20:01,487 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2018-12-03 07:20:01,487 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2018-12-03 07:20:01,572 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2018-12-03 07:20:01,572 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2018-12-03 07:20:01,576 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2018-12-03 07:20:01,577 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2018-12-03 07:20:01,581 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2018-12-03 07:20:01,581 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2018-12-03 07:20:01,588 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2018-12-03 07:20:01,588 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2018-12-03 07:20:01,598 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2018-12-03 07:20:01,598 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2018-12-03 07:20:01,624 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-13
+2018-12-03 07:20:01,624 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2018-12-03 07:20:01,716 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2018-12-03 07:20:01,716 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2018-12-03 07:20:01,721 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2018-12-03 07:20:01,722 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2018-12-03 07:20:01,747 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-15
+2018-12-03 07:20:01,747 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2018-12-03 07:20:01,763 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-16
+2018-12-03 07:20:01,763 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2018-12-03 07:20:01,779 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-14
+2018-12-03 07:20:01,779 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2018-12-03 07:20:01,805 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2018-12-03 07:20:01,806 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2018-12-03 07:20:01,814 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-11
+2018-12-03 07:20:01,815 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2018-12-03 07:20:01,963 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-12
+2018-12-03 07:20:01,963 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2018-12-03 07:20:01,966 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-17
+2018-12-03 07:20:01,967 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2018-12-03 07:20:02,055 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-20
+2018-12-03 07:20:02,061 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2018-12-03 07:20:02,061 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-18
+2018-12-03 07:20:02,061 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2018-12-03 07:20:02,081 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-19
+2018-12-03 07:20:02,081 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2018-12-03 07:20:02,082 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-12-03 07:20:02,090 INFO o.a.j.r.Summariser: summary +     19 in 00:00:01 =   31.3/s Avg:    18 Min:     6 Max:    38 Err:     0 (0.00%) Active: 0 Started: 20 Finished: 20
+2018-12-03 07:20:02,091 INFO o.a.j.r.Summariser: summary =    400 in 00:01:02 =    6.5/s Avg:    27 Min:     6 Max:   250 Err:     0 (0.00%)
